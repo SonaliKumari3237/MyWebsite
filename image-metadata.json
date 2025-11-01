@@ -1,0 +1,56 @@
+{
+  "_comment": "ANY filename works! No restrictions on naming patterns.",
+  "_instructions": "Add ANY image file to /gallery/ folder, then list it here with any filename",
+  
+  "_examples": "You can use ANY filename - no patterns required:",
+
+  "image1.jpeg": {
+    "title": "Diwali Celebration",
+    "description": "my picture", 
+    "category": "Festival",
+    "subcategory": "Diwali"
+  },
+  "image2.jpeg": {
+    "title": "familyphoto",
+    "description": "Modern building design",
+    "category": "Family", 
+    "subcategory": "Portraits"
+  },
+  "image3.jpeg": {
+    "title": "Portrait Session",
+    "description": "Natural light portrait",
+    "category": "College",
+    "subcategory": "Portraits"
+  },
+  "image4.jpeg": {
+    "title": "Mountain View", 
+    "description": "Dramatic mountain landscape",
+    "category": "Family",
+    "subcategory": "Portraits"
+  },
+  "image5.jpeg": {
+    "title": "Night Street",
+    "description": "Urban night photography",
+    "category": "Family",
+    "subcategory": "Portraits"
+  },
+  "image6.jpeg": {
+    "title": "Travel Photo",
+    "description": "Adventure travel memories",
+    "category": "Festival",
+    "subcategory": "Diwali"
+  },
+  "sonaliimage1.jpeg": {
+    "title": "My Photo",
+    "description": "Good memories",
+    "category": "Btech",
+    "subcategory": "2nd year"
+  },
+  "sonali2.jpeg": {
+    "title": "My Photo",
+    "description": "college memories",
+    "category": "Btech",
+    "subcategory": "2nd year"
+  }
+  
+}

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio - Creative Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+                <div class="logo-dot"></div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <h1 class="hero-name">
+                        <span class="text-gradient">Sonali Kumari</span>
+                        <div class="typing-cursor"></div>
+                    </h1>
+                    <p class="hero-title">Software Engineer & Developer</p>
+                    <p class="hero-description">
+                        Passionate about creating innovative digital experiences that blend 
+                        creativity with technology. Specializing in UI/UX design, web development, 
+                        and interactive media.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="image-container">
+                    <img src="sonali2.jpeg" alt="Sonali Kumari" class="hero-profile-image">
+                    <div class="floating-elements">
+                        <div class="element element-1"><i class="fas fa-code"></i></div>
+                        <div class="element element-2"><i class="fas fa-palette"></i></div>
+                        <div class="element element-3"><i class="fas fa-lightbulb"></i></div>
+                        <div class="element element-4"><i class="fas fa-rocket"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <!-- <span class="section-subtitle">Get to know me</span> -->
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-description">
+                        I'm a passionate computer science student with a love for creating beautiful, 
+                        functional digital experiences. My journey in tech began with curiosity about 
+                        how websites work, and has evolved into a deep passion for full-stack development 
+                        and user experience design.
+                    </p>
+                    <p class="about-description">
+                        Currently pursuing my degree while working on real-world projects that challenge 
+                        me to grow and learn new technologies. I believe in the power of clean code, 
+                        thoughtful design, and continuous learning.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Computer Science Student</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Full-Stack Developer</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>UI/UX Designer</span>
+                        </div>
+                    </div>
+                    <a href="RESUME.pdf" download="Sonali_CV.pdf" class="btn btn-primary download-cv">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="sonaliimage1.jpeg" alt="Sonali Kumari" class="about-profile-image">
+                        <!-- <div class="image-decoration"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <!-- <span class="section-subtitle">What I'm good at</span> -->
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <div class="category-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">React.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="82"></div>
+                                </div>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">MongoDB</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="78"></div>
+                                </div>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <div class="category-header">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Design & Tools</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Adobe Creative Suite</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Figma</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Git/GitHub</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="87"></div>
+                                </div>
+                                <span class="skill-percentage">87%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">UI/UX Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="83"></div>
+                                </div>
+                                <span class="skill-percentage">83%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <!-- <span class="section-subtitle">My Achievements</span> -->
+                <h2 class="section-title">Certificates & Qualifications</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="certificate-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">NEP Certification</h3>
+                        <p class="certificate-issuer">Tech Institute</p>
+                        <p class="certificate-date">2024</p>
+                        <p class="certificate-description">
+                            Comprehensive certification covering NEW education Policy, and system design.
+                        </p>
+                        <div class="certificate-actions">
+                            <button class="btn-certificate-view" onclick="viewCertificate('software-engineering')">
+                                <i class="fas fa-eye"></i>
+                                <span>View Certificate</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="certificate-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">AWS Cloud Practitioner</h3>
+                        <p class="certificate-issuer">Amazon Web Services</p>
+                        <p class="certificate-date">2024</p>
+                        <p class="certificate-description">
+                            Foundational understanding of AWS Cloud, services, and basic architectural principles.
+                        </p>
+                        <div class="certificate-actions">
+                            <button class="btn-certificate-view" onclick="viewCertificate('aws-cloud-practitioner')">
+                                <i class="fas fa-eye"></i>
+                                <span>View Certificate</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="certificate-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Python Programming</h3>
+                        <p class="certificate-issuer">Programming Institute</p>
+                        <p class="certificate-date">2023</p>
+                        <p class="certificate-description">
+                            Advanced Python programming including data structures, algorithms, and web development.
+                        </p>
+                        <div class="certificate-actions">
+                            <button class="btn-certificate-view" onclick="viewCertificate('python-programming')">
+                                <i class="fas fa-eye"></i>
+                                <span>View Certificate</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="certificate-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">React.js Development</h3>
+                        <p class="certificate-issuer">Frontend Academy</p>
+                        <p class="certificate-date">2023</p>
+                        <p class="certificate-description">
+                            Complete React.js course covering components, hooks, state management, and deployment.
+                        </p>
+                        <div class="certificate-actions">
+                            <button class="btn-certificate-view" onclick="viewCertificate('react-development')">
+                                <i class="fas fa-eye"></i>
+                                <span>View Certificate</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="certificate-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Database Management</h3>
+                        <p class="certificate-issuer">Data Science Institute</p>
+                        <p class="certificate-date">2023</p>
+                        <p class="certificate-description">
+                            SQL, NoSQL databases, database design, optimization, and data modeling techniques.
+                        </p>
+                        <div class="certificate-actions">
+                            <button class="btn-certificate-view" onclick="viewCertificate('database-management')">
+                                <i class="fas fa-eye"></i>
+                                <span>View Certificate</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="certificate-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Cybersecurity Fundamentals</h3>
+                        <p class="certificate-issuer">Security Academy</p>
+                        <p class="certificate-date">2022</p>
+                        <p class="certificate-description">
+                            Network security, ethical hacking, vulnerability assessment, and security best practices.
+                        </p>
+                        <div class="certificate-actions">
+                            <button class="btn-certificate-view" onclick="viewCertificate('cybersecurity-fundamentals')">
+                                <i class="fas fa-eye"></i>
+                                <span>View Certificate</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <!-- <span class="section-subtitle">My work</span> -->
+                <h2 class="section-title">Portfolio</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>E-Commerce Platform</h3>
+                                <p>Full-stack web application with React and Node.js</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Modern online shopping experience with advanced features</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item mobile" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Fitness Tracker App</h3>
+                                <p>Mobile app for tracking workouts and health metrics</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Track your fitness journey with interactive dashboards</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Charts.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item design" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Restaurant UI Design</h3>
+                                <p>Modern restaurant website design with dark theme</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-figma"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Restaurant UI Design</h3>
+                        <p>Elegant and modern restaurant website interface</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI Design</span>
+                            <span class="tag">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <!-- <span class="section-subtitle">Visual showcase</span> -->
+                <h2 class="section-title">Gallery</h2>
+                <div class="title-underline"></div>
+            </div>
+            <!-- Gallery filters will be generated dynamically -->
+            <div class="gallery-filters" data-aos="fade-up" data-aos-delay="100">
+                <!-- Dynamic filters will be inserted here -->
+                </div>
+
+            <!-- Gallery grid - all content generated dynamically -->
+            <div class="gallery-grid">
+                <!-- All gallery items will be generated dynamically from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Let's connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's talk about everything!</h3>
+                    <p>Have a project in mind? Looking to collaborate? Or just want to say hi? 
+                       I'd love to hear from you. Send me a message and I'll get back to you as soon as possible.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">kumarisonali3237@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+91993455xxxx</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-text">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Ramgarh, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sonali-kumari-71a740329" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/SonaliKumari3237" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form action="https://formspree.io/f/xpwozzgw" method="POST" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Sonali Kumari. All rights reserved.</p>
+                    <p>Designed and developed with <i class="fas fa-heart"></i> by Sonali Kumari</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="gallery-modal">
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <button class="modal-close">&times;</button>
+                <div class="modal-image-container">
+                    <div class="modalimagecontainer">
+                    <img id="modalImage" src="" alt="">
+
+                    </div>
+                    <div class="modal-info">
+                        <h4 id="modalTitle"></h4>
+                        <p id="modalDescription"></p>
+                    </div>
+                </div>
+                <div class="modal-navigation">
+                    <button class="modal-nav-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="modal-nav-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <div class="modal-overlay">
+            <div class="modal-content certificate-modal-content">
+                <button class="modal-close" onclick="closeCertificateModal()">&times;</button>
+                <div class="certificate-modal-header">
+                    <h3 id="certificateModalTitle">Certificate Title</h3>
+                    <p id="certificateModalIssuer">Issuer</p>
+                </div>
+                <div class="certificate-modal-body">
+                    <div class="certificate-preview">
+                        <img id="certificateImage" src="" alt="Certificate" class="certificate-img">
+                        <div class="certificate-placeholder">
+                            <i class="fas fa-certificate"></i>
+                            <p>Certificate image will be displayed here</p>
+                            <small>Add your certificate images to the Certificates folder</small>
+                        </div>
+                    </div>
+                    <div class="certificate-modal-actions">
+                        <button class="btn btn-primary" onclick="downloadCertificate()">
+                            <i class="fas fa-download"></i>
+                            <span>Download Certificate</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
